@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rancho&display=swap");
+:root {
+  /* --primary-color: #ba324f; */
+  --primary-color: #5d5cdc;
+
+  --secondary-color: #04395e;
+  /* --bg-primary-color: #fff4f4; */
+  --bg-primary-color: #f8f8f8;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  margin: 0 auto;
+  font-size: 16px;
+  /* background-color: #1c1c1c; */
+}
+
+.container {
+  max-width: 480px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  padding: 12px 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 10px;
+  width: max-content;
+  max-width: 100%;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: var(--secondary-color);
+  color: white;
+}
+
+label {
+  text-align: left !important;
+}
+
+.title {
+  text-align: center;
+}
+
+.title h1 {
+  color: var(--primary-color);
+  font-size: 2rem;
+}
+
+.title h6 {
+  color: var(--primary-color);
+  font-size: 1rem;
+  font-weight: 400;
+  color: black;
+}
+
+#bmi .card {
+  background-color: var(--bg-primary-color);
+  padding: 12px 24px;
+  border-radius: 20px;
+  max-width: 100%;
+  width: 50vw;
+  /* box-shadow: 0px 4px 10px 5px rgba(0, 0, 0, 0.1); */
+}
+
+#bmi .form {
+  display: flex;
+  flex-direction: column;
+  /* text-align: center; */
+}
+
+.form {
+  margin-bottom: 3rem;
+  display: flex;
+  align-items: center;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.bmi-cat {
+  margin-bottom: 4rem;
+  display: flex;
+  justify-content: center;
+}
+
+.bmi-cat h3 {
+  color: var(--primary-color);
+}
+.result {
+  margin-bottom: 3rem;
+  border-radius: 10px;
+  border: 1px solid var(--primary-color);
+  padding: 12px 24px;
+}
+
+.hasil_bmi,
+.hasil_kategori {
+  color: var(--primary-color);
+}
+
+input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+footer {
+  display: block;
+  background-color: var(--primary-color);
+  color: white;
+  background-size: cover;
+  padding: 5px auto;
+  position: relative;
+  bottom: 0;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
